@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from './img/logo.jpg'
 
 class App extends Component {
   render() {
     return (
       <div>
       <div class="container-fluid" >
-      <img src="img/kuva.jpg" width="100%" height="150px" />
+      <img src={logo} alt={logo} />
       </div>
 
 <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
