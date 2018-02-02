@@ -22,12 +22,17 @@
   font-size: large;
 }
 
-.footer{
-  color: #0c77c0;
+#footer{
+  color: #000000;
+  background: #7fd4e6;
 }
 
 .footer-linkit{
   list-style-type: none;
+}
+
+.footer-linkit a{
+  color: #000000;
 }
 
 #etusivu{
@@ -37,6 +42,16 @@
 #navbar-napit{
   margin-right: 20px;
 }
+
+#navbar-napit a{
+  color: #000000;
+}
+
+.navbar{
+  border: #7fd4e6;
+  background: #7fd4e6;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

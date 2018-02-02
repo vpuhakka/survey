@@ -7,7 +7,7 @@ class App extends Component {
   <body>
    <div class="container-fluid">
     <div class="container-fluid">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
          <ul class="nav navbar-nav navbar-right" id="navbar-napit">
            <li><a href="#etusivu">Etusivu</a></li>
            <li><a href="#kysely">Kysely</a></li>
@@ -38,7 +38,7 @@ class App extends Component {
     </div>
 
 
-<footer class="page-footer blue center-on-small-only" style={{backgroundColor:"#cdcdcd"}} id="footer">
+<footer class="page-footer blue center-on-small-only" id="footer">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
