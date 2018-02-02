@@ -22,6 +22,21 @@
   font-size: large;
 }
 
+.footer{
+  color: #0c77c0;
+}
+
+.footer-linkit{
+  list-style-type: none;
+}
+
+#etusivu{
+  margin-top:70px;
+}
+
+#navbar-napit{
+  margin-right: 20px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
