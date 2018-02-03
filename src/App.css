@@ -10,7 +10,6 @@
 .App-header {
   background-color: #FF6889;
   height: 150px;
-  padding: 20px;
   color: white;
 }
 
@@ -24,35 +23,87 @@
 
 #footer{
   color: #000000;
-  background: #7fd4e6;
+  background: #017ac9;;
 }
 
-.footer-linkit{
+.footer-links{
   list-style-type: none;
 }
 
-.footer-linkit a{
+.footer-links a{
   color: #000000;
 }
 
-#etusivu{
-  margin-top:70px;
+#frontPage{
+  margin-top: 24px;
 }
 
-#navbar-napit{
+#navbar-buttons{
   margin-right: 20px;
 }
 
-#navbar-napit a{
+#navbar-buttons a{
   color: #000000;
 }
 
 .navbar{
-  border: #7fd4e6;
-  background: #7fd4e6;
+  border: #017ac9;
+  background: white;
+  padding-top:5px;
+
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.list-inline {
+	font-size: 200%;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+    color: white;
+}
+
+#content {
+	background-color: #F6F0F0;
+	border-radius:15px 50px;
+	padding: 10px;
+}
+
+#contactdiv {
+	text-align: right;
+}
+
+/* change footer content depending on screen size */
+/* desktopFooter */
+@media screen and (min-width:992px) {
+#mobileFooter {
+		display:none !important;
+}
+#desktopFooter {
+    display:block !important;
+	}
+}
+
+/* mobileFooter */
+@media screen and (max-width: 991px) {
+	#mobileFooter{
+		display:block !important;
+		text-align: center;
+}
+#desktopFooter {
+		display:none !important;
+	}
+}
+
+#logo {
+	max-width:100%;
+}
+
+#accordion {
+	max-width:95%;
 }
