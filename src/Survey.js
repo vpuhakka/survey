@@ -28,7 +28,6 @@ class Survey extends Component {
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Aihe 1</a>
         </h4>
       </div>
-<<<<<<< HEAD
       <div id="collapse1" class="panel-collapse collapse">
         <div class="panel-body">
         <ul>
@@ -37,12 +36,10 @@ class Survey extends Component {
           }
         </ul>
       </div>
-=======
       <div id="collapse1" className="panel-collapse collapse">
         <div className="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
->>>>>>> b9d011091e89e9f1238b7c159c4f1e00e9dc12b1
       </div>
     </div>
     
@@ -100,7 +97,8 @@ class Survey extends Component {
     
   </div> 
 </div>
-			</div>	
+</div>	
+</div>
 		)
 	}
 
