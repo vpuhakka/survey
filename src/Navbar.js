@@ -5,7 +5,7 @@ class Navbar extends Component {
 
 	render() {
 		return (
-		  <nav class="navbar navbar-default navbar-static-top">
+		  <nav class="navbar navbar-default navbar-fixed-top">
      <div class="container">
 	 <img src={logo} alt={logo} id="logo" />
          <div class="navbar-header">
