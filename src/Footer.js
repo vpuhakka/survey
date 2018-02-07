@@ -6,7 +6,7 @@ class Footer extends Component {
 	render() {
 		return (
 	<footer class="page-footer blue center-on-small-only" >
-		<div class="navbar navbar-fixed-bottom" id="footer">
+		<div class="navbar navbar-static-bottom" id="footer">
 			<div class="container">
 				<div id="desktopFooter">
 					<div class="row">
