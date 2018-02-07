@@ -4,7 +4,7 @@ class Results extends Component {
 
 	render() {
 		return (
-			<div id="results" class="well well-sm">
+			<div id="results" className="well well-sm">
 				<h1>Tulokset</h1>
 			</div>
 			

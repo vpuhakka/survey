@@ -14,7 +14,7 @@ class App extends Component {
   <div id="body">
     <Navbar />
 
-    <div class="container" id="content">
+    <div className="container" id="content">
 		<FrontPage />
 		<Survey />
 		<Results />
