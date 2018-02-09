@@ -28,8 +28,8 @@ class Survey extends Component {
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Aihe 1</a>
         </h4>
       </div>
-      <div id="collapse1" class="panel-collapse collapse">
-        <div class="panel-body">
+      <div id="collapse1" className="panel-collapse collapse">
+        <div className="panel-body">
         <ul>
           { /* Render the list of messages */
             this.state.topic.map( message => <li key={message.id}>{message.text}</li> )

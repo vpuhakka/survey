@@ -7,7 +7,6 @@ import Results from './Results.js';
 import FrontPage from './FrontPage.js';
 import Footer from './Footer.js';
 import Navbar from './Navbar.js';
-import fire from './fire.js';
 
 class App extends Component {
   render() {

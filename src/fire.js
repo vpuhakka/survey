@@ -12,6 +12,6 @@ import firebase from 'firebase';
   };
   var fire = firebase.initializeApp(config);    
   
-  var defaultStorage = fire.storage();
-  var defaultDatabase = fire.database();
+ // var defaultStorage = fire.storage();
+ // var defaultDatabase = fire.database();
 export default fire;
