@@ -8,8 +8,8 @@ class Survey extends Component {
   }
   componentWillMount(){
     /* Create reference to messages in Firebase Database */
-    let messagesRef = fire.database().ref('topic').child('general');
-    messagesRef.on('child_added', snapshot => {
+    let DatabaseRef = fire.database().ref('topic').child('general');
+    DatabaseRef.on('child_added', snapshot => {
       /* Update React state when message is added at Firebase Database */
       let message = { text: snapshot.val(), id: snapshot.key };
       this.setState({ topic: [message].concat(this.state.topic) });
@@ -36,11 +36,7 @@ class Survey extends Component {
           }
         </ul>
       </div>
-      <div id="collapse1" className="panel-collapse collapse">
-        <div className="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-      </div>
+    </div>
     </div>
     
     <div className="panel panel-default">
@@ -98,7 +94,6 @@ class Survey extends Component {
   </div> 
 </div>
 </div>	
-</div>
 		)
 	}
 
